@@ -12,16 +12,15 @@ const Header = () => {
     <header className="bg-[#FEF9E7] shadow-md sticky top-0 z-50 border-b border-[#1B4332]/10">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-2.5">
-          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-[#1B4332] rounded-full flex items-center justify-center">
-              <span className="text-[#FEF9E7] font-bold text-sm">EH</span>
-            </div>
-            <div>
-              <h1 className="text-base font-bold text-[#1B4332]">Everyhope Foundation</h1>
-              <p className="text-xs text-[#1B4332]/70">Animal Welfare • Gaya</p>
-            </div>
-          </Link>
+  {/* Logo */}
+  <img
+    src="/ngo.png" // replace with actual path
+    alt="Everyhope Logo"
+    className="w-14 rounded-full object-cover"
+  />
+</Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
