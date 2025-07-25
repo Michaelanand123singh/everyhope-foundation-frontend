@@ -124,33 +124,6 @@ const TestimonialsSection = () => {
             ))}
           </div>
         </div>
-        
-        {/* Join Community CTA */}
-        <div className="mt-12 text-center">
-          <div className="bg-white rounded-lg p-6 shadow-lg max-w-2xl mx-auto border border-gray-100">
-            <h3 className="text-xl font-bold mb-3" style={{color: '#1B4332'}}>
-              Hamare Badhte Community Mein Shamil Ho Jaiye
-            </h3>
-            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-              Ek aisi movement ka hissa baniye jo zindagiyan badal rahi hai aur Gaya ko zyada 
-              compassionate bana rahi hai. Aapki kahani bhi agli success story ho sakti hai.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <button 
-                className="font-medium py-2 px-5 rounded-md transition-all duration-200 text-sm text-white hover:opacity-90"
-                style={{backgroundColor: '#F4D03F'}}
-              >
-                Apni Kahani Share Kariye
-              </button>
-              <button 
-                className="font-medium py-2 px-5 rounded-md transition-all duration-200 text-sm text-white hover:opacity-90"
-                style={{backgroundColor: '#E67E50'}}
-              >
-                Updates Subscribe Kariye
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

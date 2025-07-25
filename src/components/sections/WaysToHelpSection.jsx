@@ -90,8 +90,8 @@ const WaysToHelpSection = () => {
         {/* Corporate Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center px-3 py-1 bg-teal-900 bg-opacity-10 rounded-md mb-3">
-            <Users className="w-3 h-3 text-teal-900 mr-2" />
-            <span className="text-teal-900 text-xs font-medium uppercase tracking-wide">Engagement Options</span>
+            <Users className="w-3 h-3 text-golden mr-2" />
+            <span className="text-golden text-xs font-medium uppercase tracking-wide">Engagement Options</span>
           </div>
           
           <h2 className="text-xl lg:text-2xl font-bold text-teal-900 mb-2">
