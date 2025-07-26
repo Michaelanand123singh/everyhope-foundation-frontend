@@ -63,10 +63,6 @@ const HeroSection = () => {
                   <div className="w-1.5 h-1.5 bg-red-300 rounded-full mr-2 animate-pulse"></div>
                   Emergency Report
                 </button>
-                
-                <button className="group border border-cream border-opacity-30 hover:border-opacity-50 text-cream hover:bg-cream hover:bg-opacity-5 font-medium py-2.5 px-5 rounded-md text-sm transition-all duration-200">
-                  Learn More
-                </button>
               </div>
             </div>
             
